@@ -7,5 +7,5 @@ Feature: ingrersar y levantar la aplicacion Yape
     Scenario: seleccionar el boton crear una cuenta
 
       Given verifico que el app este disponible
-      When seleccciono el boton "crar  una cuetna"
+      When seleccciono el boton crar  una cuetna
       Then verifo el formulario para crar una cuetna.

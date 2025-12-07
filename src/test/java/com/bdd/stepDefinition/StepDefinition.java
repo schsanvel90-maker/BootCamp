@@ -28,15 +28,18 @@ public class StepDefinition {
 
     @Given("verifico que el app este disponible")
     public void verificoQueElAppEsteDisponible() {
+        step.verificoQueElAppEsteDisponible();
 
     }
 
-    @When("seleccciono el boton {string}")
-    public void selecccionoElBoton(String arg0) {
+    @When("seleccciono el boton crar  una cuetna")
+    public void selecccionoElBoton() {
+        step.selecccionoElBoton();
 
     }
 
     @Then("verifo el formulario para crar una cuetna.")
     public void verifoElFormularioParaCrarUnaCuetna() {
+        step.verifoElFormularioParaCrarUnaCuetna();
     }
 }
